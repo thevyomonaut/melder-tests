@@ -1,19 +1,19 @@
-id,legal_name
-A-101,Acme Corporation
-A-102,Global Logistics Inc.
-A-103,"O'Reilly & Sons, LLC"
-A-104,The Apex Group Ltd
-A-105,Horizon Technologies
-A-106,Schmidt Enterprises
-A-107,Vanguard Financial Services
-A-108,Benchmark Systems
+id,legal_name,address
+A-101,Acme Corporation,"123 Main Street, Suite 400, New York, NY 10001"
+A-102,Global Logistics Inc.,"456 Commerce Boulevard, Atlanta, GA 30301"
+A-103,"O'Reilly & Sons, LLC","789 Industrial Parkway, Chicago, IL 60601"
+A-104,The Apex Group Ltd,"100 Innovation Drive, Austin, TX 78701"
+A-105,Horizon Technologies,"555 Tech Way, Building B, San Jose, CA 95110"
+A-106,Schmidt Enterprises,"12 Route 9 West, Albany, NY 12207"
+A-107,Vanguard Financial Services,"1 Financial Plaza, Floor 12, Boston, MA 02110"
+A-108,Benchmark Systems,"888 Enterprise Circle, Seattle, WA 98101"
 
-id,legal_name
-B-101,Acme Corporation
-B-102,GLOBAL LOGISTICS INC
-B-103,OReilly and Sons LLC
-B-104,Apex Group
-B-105,Horizon Technologys
-B-106,Shmidt Enterprise
-B-107,Financial Services Vanguard
-B-108,Benchmark Solutions
+id,legal_name,address
+B-101,Acme Corporation,"123 Main Street, Suite 400, New York, NY 10001"
+B-102,GLOBAL LOGISTICS INC,"456 COMMERCE BLVD, ATLANTA GA 30301"
+B-103,OReilly and Sons LLC,"789 Industrial Pkwy., Chicago, Illinois 60601"
+B-104,Apex Group,"100 Innovation Dr, Austin TX 78701"
+B-105,Horizon Technologys,"555 Tek Way, Bldg B, San Jose, CA 95110"
+B-106,Shmidt Enterprise,"12 Rte 9 W, Albany, NY 12207"
+B-107,Financial Services Vanguard,"1 Financial Plz, Fl 12, Boston, MA 02110"
+B-108,Benchmark Solutions,"888 Corporate Circle, Seattle, WA 98101"
