@@ -1,0 +1,19 @@
+id,legal_name
+A-101,Acme Corporation
+A-102,Global Logistics Inc.
+A-103,"O'Reilly & Sons, LLC"
+A-104,The Apex Group Ltd
+A-105,Horizon Technologies
+A-106,Schmidt Enterprises
+A-107,Vanguard Financial Services
+A-108,Benchmark Systems
+
+id,legal_name
+B-101,Acme Corporation
+B-102,GLOBAL LOGISTICS INC
+B-103,OReilly and Sons LLC
+B-104,Apex Group
+B-105,Horizon Technologys
+B-106,Shmidt Enterprise
+B-107,Financial Services Vanguard
+B-108,Benchmark Solutions
