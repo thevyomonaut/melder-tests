@@ -1,19 +1,43 @@
 id,legal_name,address
-A-101,Acme Corporation,"123 Main Street, Suite 400, New York, NY 10001"
-A-102,Global Logistics Inc.,"456 Commerce Boulevard, Atlanta, GA 30301"
-A-103,"O'Reilly & Sons, LLC","789 Industrial Parkway, Chicago, IL 60601"
-A-104,The Apex Group Ltd,"100 Innovation Drive, Austin, TX 78701"
-A-105,Horizon Technologies,"555 Tech Way, Building B, San Jose, CA 95110"
-A-106,Schmidt Enterprises,"12 Route 9 West, Albany, NY 12207"
-A-107,Vanguard Financial Services,"1 Financial Plaza, Floor 12, Boston, MA 02110"
-A-108,Benchmark Systems,"888 Enterprise Circle, Seattle, WA 98101"
+101,Acme Corporation,"123 Main Street, Suite 400, New York, NY 10001"
+102,Global Logistics Inc.,"456 Commerce Boulevard, Atlanta, GA 30301"
+103,"O'Reilly & Sons, LLC","789 Industrial Parkway, Chicago, IL 60601"
+104,The Apex Group Ltd,"100 Innovation Drive, Austin, TX 78701"
+105,Horizon Technologies,"555 Tech Way, Building B, San Jose, CA 95110"
+106,Schmidt Enterprises,"12 Route 9 West, Albany, NY 12207"
+107,Vanguard Financial Services,"1 Financial Plaza, Floor 12, Boston, MA 02110"
+108,Benchmark Systems,"888 Enterprise Circle, Seattle, WA 98101"
 
 id,legal_name,address
-B-101,Acme Corporation,"123 Main Street, Suite 400, New York, NY 10001"
-B-102,GLOBAL LOGISTICS INC,"456 COMMERCE BLVD, ATLANTA GA 30301"
-B-103,OReilly and Sons LLC,"789 Industrial Pkwy., Chicago, Illinois 60601"
-B-104,Apex Group,"100 Innovation Dr, Austin TX 78701"
-B-105,Horizon Technologys,"555 Tek Way, Bldg B, San Jose, CA 95110"
-B-106,Shmidt Enterprise,"12 Rte 9 W, Albany, NY 12207"
-B-107,Financial Services Vanguard,"1 Financial Plz, Fl 12, Boston, MA 02110"
-B-108,Benchmark Solutions,"888 Corporate Circle, Seattle, WA 98101"
+101,Acme Corporation,"123 Main Street, Suite 400, New York, NY 10001"
+102,GLOBAL LOGISTICS INC,"456 COMMERCE BLVD, ATLANTA GA 30301"
+103,OReilly and Sons LLC,"789 Industrial Pkwy., Chicago, Illinois 60601"
+104,Apex Group,"100 Innovation Dr, Austin TX 78701"
+105,Horizon Technologys,"555 Tek Way, Bldg B, San Jose, CA 95110"
+106,Shmidt Enterprise,"12 Rte 9 W, Albany, NY 12207"
+107,Financial Services Vanguard,"1 Financial Plz, Fl 12, Boston, MA 02110"
+108,Benchmark Solutions,"888 Corporate Circle, Seattle, WA 98101"
+
+id,legal-name,address
+201,Apex Healthcare Systems,"742 Evergreen Terrace, Suite 200, Springfield, OR 97477"
+202,BEACON FINANCIAL PARTNERS LLC,"1000 CONNECTICUT AVENUE NW, FLOOR 5, WASHINGTON, DC 20036"
+203,Johnson & Johnson Corp.,"1 Johnson & Johnson Plaza, Bldg #3, New Brunswick, NJ 08933"
+204,The Pinnacle Group Inc,"PO Box 4589, Atlanta, GA 30302"
+205,Chesapeake Engineering Solutions,"500 Water Street, Suite 4B, Baltimore, MD 21202"
+206,Vanderbilt Real Estate,"1200 West End Avenue, Nashville, TN 37203"
+207,Pacific Coast Maritime Logistics,"888 Harbor Boulevard, Suite 1200, Long Beach, CA 90802"
+208,Saint Claire Mutual Funds,"45 Martin Luther King Jr. Blvd, Saint Louis, MO 63101"
+209,Northwest Power & Light,"300 SW 6th Ave, Apt #12A, Portland, OR 97204"
+210,Summit Data Analytics,"1500 Broadway, 22nd Floor, New York, NY 10036"
+
+id,counterparty-legal-name,counterparty-address
+201,Apex Healthcare Systems,"742 Evergreen Terrace, Suite 200, Springfield, OR 97477"
+202,beacon financial partners llc,1000 connecticut ave nw fl 5 washington dc 20036
+203,Johnson and Johnson Corp,1 Johnson and Johnson Plz Bldg 3 New Brunswick NJ 08933
+204,Pinnacle Group,"P.O. Box 4589, Atlanta, Georgia 30302"
+205,Chesapeak Engineerng Solutions,"500 Water St Ste 4B Baltimore MD 21202"
+206,Vanderbilt Real estate,"1200 W End Ave Nashville TN 37203"
+207,Maritime Logistics Pacific Coast,"888 Harbor Blvd, Ste 1200, Long Beach, CA 90802"
+208,St Claire Mutual Funds,45 MLK Jr Boulevard St. Louis MO 63101
+209,Northwest Energy Corp,"300 SW 6th Avenue, Apt 12A, Portland, OR 97204"
+210,Summit Data Analytics LLC,1500 Broadway Fl 22 New York NY 10036
