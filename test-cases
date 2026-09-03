@@ -1,0 +1,283 @@
+------------Use Case 1 : Exact Match--------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Bank of America,  541887277,  2801 Jordan Lane, US,  781436
+American Bank,  551887277,  2803 Grerory St, US,  781438
+Bank of America,  541887277,  2801 Jordan Lane, US,  781436
+bank of america,  541887277,  2801 Jordan lane, US,  781436
+bank of america,  541887277,  2801 Jarden lane, US,  781436
+
+
+------------Use Case 2 : Normalized Exact Match / USe Case 26 :Attribute Based Entity Resolution --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Wells Fargo,  123-45-6789,  36A Wabeno Avenue, US,  781436
+Wells Fargo,  123-45-6789,  36A Wabeno Avenue, US,  781436
+Fargo Wells,  123456789,  36A Wabeno Avenue, US,  781436
+WELLS FARGO,  123-45-6789,  36a WABENO AvEnue, US,  781436
+       Wells Fargo,  123456789,  36A Wabeno Avenue, US,  781436
+Wells Fargo     ,  123-45-6789,  36A Wabeno Avenue, US,  781436
+
+
+------------Use Case 3 : Special Character Handling /  Use Case 26 :Attribute Based Entity Resolution--------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+J.P Morgan Chase Co,  321-54-8976,  100 Tyron Street, US,  867636
+J.P Morgan Chase Co.,  321-54-8976,  100 Tyron Street, US,  867636
+JP Morgan Chase Co,  321-54-8976,  100 Tyron Street, US,  867636
+JP Morgan & Chase Co,  321-54-8976,  100 Tyron Street, US,  867636
+JP' Morgan Chase Co,  321-54-8976,  100' Tyron Street, US,  867636
+J.P Morgan Chase Co,  321-54-8976,  100 Tyron Street, US,  867636
+
+
+------------Use Case 4 : Legal Entity Synonym Expansion--------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+ACME Holdings LLC,  23242526,  Paseo Padre Pkwy, US,  121314
+Acme Holdings,  23242526,  Paseo Padre Pkwy, US,  121314
+acme Holdings corp,  23242526,  Paseo Padre Pkwy, US,  121314
+A holdings plc,  23242526,  Paseo Padre Pkwy, US,  121314
+ACME Holdings LLC,  23242526,  Paseo Padre Pkwy, US,  121314
+
+
+
+------------Use Case 5 : Stop Word Removal--------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Goldman Sachs,  89786759,  301 Tyvola Street, US,  454647
+Goldman and Sachs,  89786759,  301 Tyvola Street, US,  454647
+The Goldman Sachs,  89786759,  301 Tyvola Street, US,  454647
+Goldman or Sachs,  89786759,  301 Tyvola Street, US,  454647
+Goldman Sach,  89786759,  301 Tyvola Street, US,  454647
+Goldman Sachs,  89786759,  301 Tivola Street, US,  454647
+
+
+------------Use Case 6 : Business Stop Words / Use Case 26 :Attribute Based Entity Resolution--------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Google Corporation,  12345678,  22B Union street, US,  123406
+Google Corporation Holdings,  12345678,  22B Union street, US,  123406
+The Google Corp,  12345678,  22B Union street, US,  123406
+Google Corporation Systems,  12345678,  22B Union street, US,  123406
+Google Corp Global,  12345678,  22B Union street, US,  123406
+Google Corporation Solutions,  12345678,  22B Union street, US,  123406
+
+
+------------Use Case 7 : Inflection / Stemming--------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Boston Managing Holdings Resolution,  222-33-444,  22B Processing Center, US,  121212
+Boston Manage Holdings,  222-33-444,  22B Processing Center, US,  121212
+Boston Managing Holdings,  222-33-444,  22B Process Center, US,  121212
+Boston Hold Resolve,  222-33-444,  22B Processing Center, US,  121212
+Boston Managing Holdings,  222-33-444,  22B Processing Center, US,  121212
+
+
+------------Use Case 8 : Lemmatization--------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Nike Running Corporation,  111-88-5555,  23 Sports Drive, US,  454556
+Nike Ran Corporation,  111-88-5555,  23 Sports Drive, US,  454556
+Nike Run Corporation,  111-88-5555,  23 Sports Drive, US,  454556
+Nike Running Corp,  111-88-5555,  23 Sports Drive, US,  454556
+Nike Running Corporations,  111-88-5555,  23 Sports Drive, US,  454556
+
+
+------------Use Case 9 : Acronym Expansion / Use Case 11: Address Standardization--------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+International Business Machine,  98765432  22 Palo Alto Street, US,  678901
+IBM,  98765432  22 Palo Alto Street, US,  678901
+Goldman Sachs,  89786759,  301 Tivola Street, US,  454647
+GS, 89786759,  301 Tivola Street, US,  454647
+GS, 89786759,  301 Tivola St, US,  454647
+
+
+------------Use Case 10 : Abbreviation Expansion / Use Case 11: Address Standardization --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Boston Consulting Group,  111-22-3333,  16 Hayward Avenue, US,  2345678
+Boston Consulting Group,  111-22-3333,  16 Hayward Ave, US,  2345678
+BCG,  111-22-3333  16 Hayward Ave, US,  2345678
+Boston Consulting Group,  111-22-3333,  16 Hayward Ave, US,  2345678
+
+
+
+------------Use Case 12 : Number Normalization --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+First National Bank,  666-77-9991,  100 Second Avenue, US,  2345678
+1st National Bank,  666-77-9991,  100 Second Avenue, US,  2345678
+First National Bank,  666-77-9991,  100 2nd Avenue, US,  2345678
+
+
+------------Use Case 13 : Roman Numeral Handling --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Henry IV Holdings,  77778888,  Building V First Avenue, US,  1122334
+Henry 4 Holdings,  77778888,  Building V First Avenue, US,  1122334
+Henry IV Holdings,  77778888,  Building 5 First Avenue, US,  1122334
+Henry 4 Holdings,  77778888,  Building 5 1st Ave, US,  1122334
+
+------------Use Case 14 : Keyboard Error / Correction --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Amazon Services,  33331111,  300 MAin Street, US,  5566778
+Amaxon Services,  33331111,  300 MAin Street, US,  5566778
+Amaxon Services,  33331111,  300 Mian Street, US,  5566778
+Amdspn Services,  33331111,  300 Muln Street, US,  5566778
+
+
+
+------------Use Case 15 : Fuzzy Matching --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Amazon Corporation,  13131313,  150 Future Street, US,  1155779
+Amazan Corporation,  13131313,  150 Future Street, US,  1155779
+Amazaan Corporation,  13131313,  150 Future Street, US,  1155779
+Amazoon Corporation,  13131313,  150 Future Street, US,  1155779
+Amazoon Corporation,  13131313,  150 Futare Street, US,  1155779
+Amazxyn Corp,  13131313,  150 Futurre St, US,  1155779
+
+
+
+
+------------Use Case 16 : Token Reordering --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Union Bank of India,  24242424,  175 Bryan Lane, US,  4433221
+Bank of India Union,  24242424,  175 Bryan Lane, US,  4433221
+India Bank of Union,  24242424,  175 Bryan Lane, US,  4433221
+OF India Bank Union,  24242424,  175 Bryan Lane, US,  4433221
+Union Bank of India,  24242424,  Bryan Lane 175, US,  4433221
+Union Bank of India,  24242424,  LAne 175 Bryan, US,  4433221
+
+
+------------Use Case 17 : Contains Partial Match --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Info lease Technologies ,  234-56-7891,  420 Montgomery Street, US,  3451237
+Info Tech Technologies ,  234-56-7891,  420 Montgomery Street, US,  3451237
+Store lease Technologies ,  234-56-7891,  420 Montgomery Street, US,  3451225
+Info tech Technologies ,  123-46-7891,  420 Montgamery Street, US,  1231237
+Info lease Technologies ,  123-46-7891,  420 Montgamery Street, US,  3451237
+
+
+
+------------Use Case 18 : Phonetic Matching --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS  
+
+Smith Consulting LLC ,  112-34-8989,  420 Main Ave , US,  1298347
+Smyth Consulting LLC ,  112-34-8989,  420 Mayne Ave , US,  1298347
+Steven Financial Group,  234-56-7891,  420 Clark Street, US,  3451225
+Stephen Financial Group,  234-56-7891,  420 Clarke Street, US,  3451225
+
+
+------------Use Case 19 : Synonym Expansion --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS
+
+ABC Company LLC ,  10102020,  300 Oslo Avenue , US,  2309091
+ABC Firm LLC ,  10102020,  300 Oslo Ave , US,  2309091
+Global Financial holdings,  31031034,  220 REdwood Street, US,  367689
+Global Finance holding,  31031034,  220 REdwood St, US,  367689
+
+
+------------Use Case 20 : Domain Specifc Synonyms --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS
+
+ABC DBA LLC ,  234576,  1 Pascal Avenue , US,  56789
+ABC Trade Name LLC , 234576,  1 Pascal Ave , US,  56789
+Global Financial holdings,  31031034,  220 REdwood Street, US,  367689
+Global Finance holding,  31031034,  220 REdwood St, US,  367689
+
+
+
+------------Use Case 21 : Alias MAtching --------------------
+
+
+
+
+------------Use Case 22 : Nickname MAtching --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS
+
+William Smith ,  234-22-3333,  3 Pascal Avenue , US,  567891
+Robert Smith ,  234-22-3333,  3 Pascal Avenue , US,  567891
+
+
+
+------------Use Case 23 : Transileration --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS
+
+São Paulo Holdings, 23456789, São Paulo Street, BR, 121212
+ZÜrich Investments AG, 121213, ZÜrich, SW, 12113
+
+
+------------Use Case 24 : Multilingual Matching --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS
+Wells Fargo Banco, 111133, 420 Banco street, ES, 458767
+XYZ Groupe Bancaire, 4545464,  50 Financière Road, FR, 6767679
+
+
+------------Use Case 25 : Multilingual Matching --------------------
+
+CompanyName, SSNTaxID,  AddressLine1,   CountryCode,   DUNS
+Wells Fargo Banco, 111133, 420 Banco street, ES, 458767
+XYZ Groupe Bancaire, 4545464,  50 Financière Road, FR, 6767679
+
+
+
+------------Use Case 26 : Attribute Based Entity Resolution  --------------------
+
+Can be covered with data provided with any of the use cases from 1-20.
+
+
+------------Use Case 27 : Semantic AI Matching --------------------
+
+Can be covered with data provided with any of the use cases from 1-20.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
