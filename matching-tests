@@ -1,0 +1,41 @@
+id,legal_name,address,tax_id
+DS1-001,Acme Corporation,"100 Main Street, New York, NY 10001",123456789
+DS1-002,GLOBAL LOGISTICS INC.,"450 NORTH OAK AVENUE, CHICAGO, IL 60601",234567890
+DS1-003,"O'Reilly & Sons, LLC","789 St. Charles Ave., New Orleans, LA 70130",345678901
+DS1-004,The Apex Group Ltd,"PO Box 1234, Houston, TX 77001",456789012
+DS1-005,Horizon Technologies,"100 Innovation Parkway, San Jose, CA 95134",567890123
+
+id,legal_name,address,tax_id
+DS1-001,Acme Corporation,"100 Main Street, New York, NY 10001",123456789
+DS1-002,global logistics inc,450 n oak ave chicago il 60601,234567890
+DS1-003,OReilly and Sons LLC,789 Saint Charles Ave New Orleans LA 70130,345678901
+DS1-004,Apex Group,"P.O. Box 1234, Houston, TX 77001",456789012
+DS1-005,Horizon Technologys,"100 Innovation Pkwy, San Jose, CA 95134",567890123
+
+id,legal_name,address,duns_no
+DS2-001,Vanguard Financial Services International,"500 Market St, Philadelphia, PA 19106",111222333
+DS2-002,Consulting and Management Solutions,"200 Park Ave, New York, NY 10166",222333444
+DS2-003,Global Manufacturing Enterprises,"300 Industrial Pkwy, Cleveland, OH 44114",333444555
+DS2-004,International Business Machines Corporation,"1 New Orchard Rd, Armonk, NY 10504",444555666
+DS2-005,Schmidt & Szymanski Engineering,"1200 Grand Ave, Milwaukee, WI 53203",555666777
+
+id,legal_name,address,duns_no
+DS2-001,Vanguard Financial,"500 Market Street, Philadelphia, PA 19106",111222333
+DS2-002,Consultant and Managed Solution,"200 Park Ave, New York, NY 10166",222333444
+DS2-003,Globe Manufacture Enterprise,"300 Industrial Parkway, Cleveland, OH 44114",333444555
+DS2-004,IBM Corp,"1 New Orchard Rd, Armonk, NY 10504",444555666
+DS2-005,Shmidt & Simanski Enginering,"1200 Grand Ave, Milwaukee, WI 53203",555666777
+
+id,legal_name,address,wcis_id
+DS3-001,1st National Bank of Texas,"100 5th Avenue, Austin, TX 78701",211111111
+DS3-002,Edward Jones Financial Holdings III,"12555 Manchester Rd, St. Louis, MO 63131",222222222
+DS3-003,Frontier Energy Partners,"700 Louisiana St, Houston, TX 77002",233333333
+DS3-004,Robert & Thomas Brothers Construction,"400 Oak St, Atlanta, GA 30308",244444444
+DS3-005,General Electric Capital Corp,"901 Main Ave, Norwalk, CT 06851",255555555
+
+id,legal_name,address,wcis_id
+DS3-001,First National Bank of Texas,"100 Fifth Ave, Austin, TX 78701",211111111
+DS3-002,Edward Jones Financial Holdings the Third,"12555 Manchester Rd, Saint Louis, MO 63131",222222222
+DS3-003,Frontier Power Associates,"700 Louisiana St, Houston, TX 77002",233333333
+DS3-004,Bob & Tom Bros Construction,"400 Oak Street, Atlanta, GA 30308",244444444
+DS3-005,GE Capital,"901 Main Avenue, Norwalk, CT 06851",255555555
