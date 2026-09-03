@@ -1,0 +1,71 @@
+id,legal_name,address,ssn_tax_id,country_code,duns
+1,Bank of America,2801 Jordan Lane,541887277,US,781436
+2,American Bank,2803 Grerory St,551887277,US,781438
+3,Wells Fargo,36A Wabeno Avenue,123-45-6789,US,781436
+4,Fargo Wells,36A Wabeno Avenue,123456789,US,781436
+5,Amazon Services,300 Main Street,33331111,US,5566778
+6,Amazon Corporation,150 Future Street,13131313,US,1155779
+7,Amazan Corporation,150 Future Street,13131313,US,1155779
+8,Goldman Sachs,301 Tyvola Street,89786759,US,454647
+9,Google Corporation,22B Union street,12345678,US,123406
+10,Nike Running Corporation,23 Sports Drive,111-88-5555,US,454556
+
+id,legal_name,address,ssn_tax_id,country_code,duns
+101,bank of america,2801 Jordan lane,541887277,US,781436
+102,bank of america,2801 Jarden lane,541887277,US,781436
+103,WELLS FARGO,36a WABENO AvEnue,123-45-6789,US,781436
+104,Wells Fargo,36A Wabeno Avenue,123456789,US,781436
+105,Amaxon Services,300 Mian Street,33331111,US,5566778
+106,Amdspn Services,300 Muln Street,33331111,US,5566778
+107,Amazoon Corporation,150 Futare Street,13131313,US,1155779
+108,Amazxyn Corp,150 Futurre St,13131313,US,1155779
+109,Goldman Sachs,301 Tivola Street,89786759,US,454647
+110,The Google Corp,22B Union street,12345678,US,123406
+
+id,legal_name,address,ssn_tax_id
+1,J.P Morgan Chase Co,100 Tyron Street,321-54-8976
+2,JP Morgan Chase Co,100 Tyron Street,321-54-8976
+3,Goldman Sachs,301 Tyvola Street,89786759
+4,Goldman or Sachs,301 Tyvola Street,89786759
+5,First National Bank,100 Second Avenue,666-77-9991
+6,Henry IV Holdings,Building V First Avenue,77778888
+7,Union Bank of India,175 Bryan Lane,24242424
+8,India Bank of Union,175 Bryan Lane,24242424
+9,Info lease Technologies,420 Montgomery Street,234-56-7891
+10,Store lease Technologies,420 Montgomery Street,234-56-7891
+
+id,legal_name,address,ssn_tax_id
+201,J.P Morgan Chase Co.,100 Tyron Street,321-54-8976
+202,JP' Morgan Chase Co,100' Tyron Street,321-54-8976
+203,Goldman and Sachs,301 Tyvola Street,89786759
+204,The Goldman Sachs,301 Tyvola Street,89786759
+205,1st National Bank,100 2nd Avenue,666-77-9991
+206,Henry 4 Holdings,Building 5 1st Ave,77778888
+207,Bank of India Union,175 Bryan Lane,24242424
+208,Union Bank of India,LAne 175 Bryan,24242424
+209,Info Tech Technologies,420 Montgomery Street,234-56-7891
+210,Info tech Technologies,420 Montgamery Street,123-46-7891
+
+id,legal_name,address
+1,ACME Holdings LLC,Paseo Padre Pkwy
+2,A holdings plc,Paseo Padre Pkwy
+3,Google Corporation,22B Union street
+4,Google Corporation Holdings,22B Union street
+5,International Business Machine,22 Palo Alto Street
+6,Goldman Sachs,301 Tivola Street
+7,Boston Consulting Group,16 Hayward Avenue
+8,ABC Company LLC,300 Oslo Avenue
+9,Global Financial holdings,220 Redwood Street
+10,ABC DBA LLC,1 Pascal Avenue
+
+id,legal_name,address
+301,Acme Holdings,Paseo Padre Pkwy
+302,acme Holdings corp,Paseo Padre Pkwy
+303,Google Corporation Systems,22B Union street
+304,Google Corp Global,22B Union street
+305,IBM,22 Palo Alto Street
+306,GS,301 Tivola St
+307,BCG,16 Hayward Ave
+308,ABC Firm LLC,300 Oslo Ave
+309,Global Finance holding,220 Redwood St
+310,ABC Trade Name LLC,1 Pascal Ave
