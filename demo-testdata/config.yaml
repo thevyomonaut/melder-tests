@@ -1,0 +1,79 @@
+job:
+  name: address-norm-test
+
+datasets:
+  a:
+    path: test-data/address-norm-test/a2.csv
+    id_field: id
+    format: csv
+  b:
+    path: test-data/address-norm-test/b2.csv
+    id_field: id
+    format: csv
+
+cross_map:
+  backend: "local"
+  path: "crossmap.csv"
+  a_id_field: id
+  b_id_field: id
+
+embeddings:
+  model: "C:\\tools\\melder\\models\\arctic-embed-xs-entity-resolution"
+  a_cache_dir: test-data/address-norm-test/cache
+  b_cache_dir: test-data/address-norm-test/cache
+
+match_fields:
+  - field_a: legal-name
+    field_b: counterparty-legal-name
+    method: exact
+    weight: 0.025
+
+  - field_a: address
+    field_b: counterparty-address
+    method: exact
+    weight: 0.025
+
+  - field_a: legal-name
+    field_b: counterparty-legal-name
+    method: fuzzy
+    weight: 0.175
+
+  - field_a: address
+    field_b: counterparty-address
+    method: fuzzy
+    weight: 0.175
+
+  - field_a: legal-name
+    field_b: counterparty-legal-name
+    method: embedding
+    weight: 0.175
+
+  - field_a: address
+    field_b: counterparty-address
+    method: embedding
+    weight: 0.175
+
+  - field_a: legal-name
+    field_b: counterparty-legal-name
+    method: synonym
+    weight: 0.1
+
+  - field_a: address
+    field_b: counterparty-address
+    method: synonym
+    weight: 0.1
+
+  - method: bm25
+    weight: 0.25
+    fields:
+      - field_a: legal-name
+        field_b: counterparty-legal-name
+      - field_a: address
+        field_b: counterparty-address
+
+thresholds:
+  auto_match: 0.75
+  review_floor: 0.2
+
+output:
+  csv_dir_path: test-data/address-norm-test/output
