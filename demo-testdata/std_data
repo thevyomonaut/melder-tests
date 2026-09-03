@@ -69,3 +69,27 @@ id,legal_name,address
 308,ABC Firm LLC,300 Oslo Ave
 309,Global Finance holding,220 Redwood St
 310,ABC Trade Name LLC,1 Pascal Ave
+
+id,legal_name,address,country_code
+1,Boston Managing Holdings Resolution,22B Processing Center,US
+2,Boston Manage Holdings,22B Processing Center,US
+3,Nike Running Corporation,23 Sports Drive,US
+4,Nike Run Corporation,23 Sports Drive,US
+5,Smith Consulting LLC,420 Main Ave,US
+6,Steven Financial Group,420 Clark Street,US
+7,William Smith,3 Pascal Avenue,US
+8,São Paulo Holdings,São Paulo Street,BR
+9,Wells Fargo Banco,420 Banco street,ES
+10,XYZ Groupe Bancaire,50 Financière Road,FR
+
+id,legal_name,address,country_code
+401,Boston Managing Holdings,22B Process Center,US
+402,Boston Hold Resolve,22B Processing Center,US
+403,Nike Ran Corporation,23 Sports Drive,US
+404,Nike Running Corporations,23 Sports Drive,US
+405,Smyth Consulting LLC,420 Mayne Ave,US
+406,Stephen Financial Group,420 Clarke Street,US
+407,Robert Smith,3 Pascal Avenue,US
+408,ZÜrich Investments AG,ZÜrich,SW
+409,Wells Fargo Banco,420 Banco street,ES
+410,XYZ Groupe Bancaire,50 Financière Road,FR
