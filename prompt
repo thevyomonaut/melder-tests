@@ -1,0 +1,4 @@
+create datasets to test the efficiency of the matchign engine. the test 
+should cover exact matching, normalized exact matching, special 
+character handling, stop word removal, fuzzy matching, typos, partial match/contains, inflection/stemming, lemmatization, acronym expansion, number normalisation, roman numeral handling, phonetic matching, synonym matching, alias and nickname matching. there 
+should be a set a and set b for matching. you may create a few separate datasets of 5 records each to cover all cases
