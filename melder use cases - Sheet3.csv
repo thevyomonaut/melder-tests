@@ -1,0 +1,94 @@
+Id,CompanyName,Address,SSN,LegalType
+B1,Acme Corporation,"100 Main Street, New York, NY 10001",954789512,CORP
+B2,Acme Corporation,"100 Main Street, New York, NY 10001",954789512,
+B3,GLOBAL LOGISTICS INC,New York,578412589,CORP
+B4,acme logistics inc,"100 Main Street, New York, NY 10001",954789512,COOP
+B5,Apex Financial Corp,"500 Innovation Way, Austin, TX 78701",987654321,LLC
+B6,global tech services,"750 Broad Street, Newark, NJ 07102",321654987,CORP
+B7,Acne Corporation,"100 Main Street, New York, NY 10001",,
+B8,Golbal Logistics Inc,"450 North Oak Avenue, Chicago, IL 60601",578412589,LLC
+B9,Horizn Finacial Services,"750 Broad Street, Newark, NJ 07102",456789999,LLC
+B10,Dalta Cnosulting Gropu,"100 Market St, San Francisco, CA 94105",321654987,
+B11,Pnnacle Fnancial Group,"300 Capitol St, Houston, TX 77002",,
+B12,Zenith Industrail Suplies,"100 Broadway, New York, NY 10005",999888777,INC
+B13,Church Community Grace Trinity,"100 Chapel Lane, Nashville, TN 37201",987654321,CHURCH
+B14,Fund Hedge Capital Vanguard,"500 Wall Street, New York, NY 10005",,FUND
+B15,School Academy Mary St,"10 Main St, Cambridge, MA 02138",111222333,SCHOOL
+B16,B AND M INTERNATIONAL TRADING CO,"450 North Oak Avenue, Chicago, IL 60601",111222333,SOLE PROPRIETORSHIP
+B17,STAR Youth Foundation,450 N Oak Ave Ste 100 Bldg A,,
+B18,LExpress At Capital Bank,"750 Broad Street, Newark, NJ 07102",999888777,FOCO
+B19,Apex Technology Corp,"500 Innovation Way, Austin, TX 78701",,
+B20,Global Logistics Inc,"120 Federal St, Boston, MA 02110",111222333,LLP
+B21,Beacon Hill Pvt Ltd,"120 Federal St, Boston, MA 02110",654987321,INVSTBNK
+B22,Horizon Solutions LLC,"100 Main St, New York, NY 10001",999888777,
+B23,BNY Mellon,"240 Greenwich Street, New York, NY 10286",,
+B24,IBM,"450 North Oak Avenue, Chicago, IL 60601",111222333,LLP
+B25,ALS,"500 Innovation Way, Austin, TX 78701",654987321,INVSTBNK
+B26,HSBC,"100 Main St, New York, NY 10001",999888777,
+B27,Apex Tech Dept,"500 Innovation Way, Austin, TX 78701",,
+B28,Global Mgmt and Admin Svcs,"120 Federal St, Boston, MA 02110",111222333,INDIV
+B29,Jane St,"New York, NY 10281",547814968,
+B30,Pinnacle Energy Resources,"750 Broad St, Ste 400, Newark, NJ 07102",,
+B31,Zenith Financial Solutions,"500 Innovation Blvd, Apt 12B, Austin, TX 78701",111222333,INDIV
+B32,Vanguard Freight Systems,"450 N Oak Ave, Hwy 101, Chicago, IL 60601",578412589,FOCO
+B33,Sterling Global Enterprise,"100 Main St, New York, NY 10001",999888777,
+B34,Crestview Capital Growth Fund,"1200 Pacific Hwy, San Diego, CA 92101",,
+B35,Society Prevention Cruelty,"100 Main St, New York, NY 10001",111222333,FNDN
+B36,Center Science Technology,"500 Innovation Blvd, Austin, TX 78701",654987321,PLAN
+B37,Bank International Trade,"800 Rural Route, Des Moines, IA 50309",999888777,
+B38,Trident Logistics,"100 Main St, New York, NY 10001",,
+B39,Zenith Financial,"120 Federal St, Boston, MA 02110",111222333,LLP
+B40,Horizon Data,"750 Broad St, Newark, NJ 07102",654987321,FOCO
+B41,Meridian Advisory,"800 Rural Route, Des Moines, IA 50309",999888777,
+B42,Vanguard Managing Group,"500 Wall Street, New York, NY 10005",,
+B43,Apex Software Creating Services,"450 N Oak Ave, Chicago, IL 60601",111222333,LLP
+B44,Global Searching Solutions,"750 Broad St, Newark, NJ 07102",654987321,FNDN
+B45,Horizon Consulted Partners,"800 Rural Route, Des Moines, IA 50309",999888777,
+B46,Rapid Running Freight Systems,"500 Wall Street, New York, NY 10005",,
+B47,Good Building Solutions,"450 N Oak Ave, Chicago, IL 60601",111222333,LLP
+B48,Apex Flew Express Logistics,"750 Broad St, Newark, NJ 07102",654987321,FNDN
+B49,Horizon Child Health Services,"800 Rural Route, Des Moines, IA 50309",999888777,
+B50,7 Hills Asset Management,"100 Main St, Suite 7, New York, NY 10001",,
+B51,1st National Capital Corp,"120 Federal St, Boston, MA 02110",111222333,LLP
+B52,Apex Twenty First Century Media,"750 Broad St, Newark, NJ 07102",654987321,FNDN
+B53,3 Rivers Logistics Center,"800 Rural Route, Des Moines, IA 50309",999888777,
+B54,Henry 3 Logistics Group,"500 Wall Street, Floor 3, New York, NY 10005",,
+B55,Apex Century 4 Capital,"450 N Oak Ave, Chicago, IL 60601",111222333,LLP
+B56,World War 2 Memorial Foundation,"750 Broad St, Newark, NJ 07102",654987321,NGO
+B57,Charles 9 Energy Solutions,"800 Rural Route, Des Moines, IA 50309",999888777,
+B58,Wells Fargo,"420 Montgomery Street, San Francisco, CA 94104",,
+B59,JPMorgan Chase,"120 Federal St, Boston, MA 02110",111222333,LLP
+B60,Bank of America,"100 North Tryon Street, Charlotte, NC 28255",654987321,FOCO
+B61,Goldman Sachs,"800 Rural Route, Des Moines, IA 50309",999888777,
+B62,Stephen Miller Advisory,"500 Wall Street, New York, NY 10005",,
+B63,Katherine Smith Holdings,"450 N Oak Ave, Chicago, IL 60601",111222333,LLP
+B64,Brian Johns Capital,"750 Broad St, Newark, NJ 07102",654987321,INVSTBNK
+B65,Shawn Wright Financial,"800 Rural Route, Des Moines, IA 50309",999888777,
+B66,Premier Car Logistics,"500 Wall Street, New York, NY 10005",,
+B67,Apex Attorney Services,"450 N Oak Ave, Chicago, IL 60601",111222333,FOCO
+B68,Global Doctor Group,"750 Broad St, Newark, NJ 07102",654987321,PLAN
+B69,Horizon Trade Bank,"800 Rural Route, Des Moines, IA 50309",999888777,
+B70,Vanguard LE Solutions,"500 Wall Street, New York, NY 10005",,
+B71,Apex EIN Registry,"450 N Oak Ave, Chicago, IL 60601",111222333,LLP
+B72,Global TIN Advisory,"750 Broad St, Newark, NJ 07102",654987321,PLAN
+B73,Horizon DBA Holdings,"800 Rural Route, Des Moines, IA 50309",999888777,
+B74,Alphabet Inc,"1600 Amphitheatre Pkwy, Mountain View, CA 94043",,
+B75,Meta Platforms Inc,"120 Federal St, Boston, MA 02110",111222333,LLP
+B76,X Corp,"1355 Market St, San Francisco, CA 94103",654987321,INVSTBNK
+B77,Block Inc,"800 Rural Route, Des Moines, IA 50309",999888777,
+B78,Bob Miller Services,"500 Wall Street, New York, NY 10005",,
+B79,Bill Johnson Advisory,"450 N Oak Ave, Chicago, IL 60601",111222333,LLP
+B80,Beth Davis Consulting,"750 Broad St, Newark, NJ 07102",654987321,FOCO
+B81,Dick Wilson Financial,"800 Rural Route, Des Moines, IA 50309",999888777,
+B82,Газпром нефть,"1600 Amphitheatre Pkwy, Mountain View, CA 94043",,
+B83,北京首都集团,"450 N Oak Ave, Chicago, IL 60601",111222333,LLP
+B84,شركة الرحمة للتجارة,"750 Broad St, Newark, NJ 07102",654987321,NGO
+B85,三菱UFJフィナンシャル・グループ,"800 Rural Route, Des Moines, IA 50309",999888777,
+B86,Croix-Rouge Fondation,"500 Wall Street, New York, NY 10005",,
+B87,Schweizerische Bundesbahnen,"450 N Oak Ave, Chicago, IL 60601",111222333,LLP
+B88,中国银行,"750 Broad St, Newark, NJ 07102",654987321,FOCO
+B89,Münchener Rückversicherungs-Gesellschaft,"800 Rural Route, Des Moines, IA 50309",999888777,
+B90,Databricks Inc,"1600 Amphitheatre Pkwy, Mountain View, CA 94043",,
+B91,Tesla Motors,"120 Federal St, Boston, MA 02110",111222333,LLP
+B92,Amazon.com Inc,"410 Terry Ave N, Seattle, WA 98109",654987321,INVSTBNK
+B93,Google LLC,"800 Rural Route, Des Moines, IA 50309",999888777,

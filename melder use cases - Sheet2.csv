@@ -1,0 +1,94 @@
+Id,CompanyName,Address,SSN,LegalType
+A1,Acme Corporation,"100 Main Street, New York, NY 10001",954789512,CORP
+A2,Acme Corporation,"100 Main Street, New York, NY 10001",,LLC
+A3,GLOBAL LOGISTICS INC,"New York, NY 10001",,
+A4,ACME LOGISTICS INC,"100 Main Street, New York, NY 10001",,
+A5,Apex Financial Corporation,,123456789,PLAN
+A6,Global Tech Services,"1200 Pacific Highway, San Diego, CA 92101",321654987,CORP
+A7,cme Corporation,"100 Main Street, New York, NY 10001",954789512,NGO
+A8,Global Logistics Inc,"450 North Oak Avenue, Chicago, IL 60601",578412589,INC
+A9,Horizon Financial Services,"750 Broad Street, Newark, NJ 07102",456789123,LLC
+A10,Delta Consulting Group,"1200 Pacific Highway, San Diego, CA 92101",321654987,LLC
+A11,Pinnacle Financial Group,"300 Capitol St, Houston, TX 77002",987654321,CORP
+A12,Zenith Industrial Supplies,"500 Airport Rd, Phoenix, AZ 85001",111222333,LLC
+A13,Trinity Grace Community Church,"100 Chapel Lane, Nashville, TN 37201",,CHURCH
+A14,Vanguard Capital Hedge Fund,"500 Wall Street, New York, NY 10005",456789123,HEDGE
+A15,St Mary Academy School,"250 Education Way, Boston, MA 02108",,SCHOOL
+A16,B&M International Trading Co.,"100 Main St. #4-B, New York, NY 10001",954789512,NGO
+A17,S.T.A.R. Youth Foundation,"450 N. Oak Ave., Ste. 100 / Bldg. A",578412589,FNDN
+A18,L'Express @ Capital Bank (Global),"1200 Pacific Hwy; San Diego, CA 92101",,INVSTBNK
+A19,pex Technology Corporation,"500 Innovation Way, Austin, TX 78701",987654321,CORP
+A20,Global Logistics Incorporated,"450 North Oak Avenue, Chicago, IL 60601",578412589,INC
+A21,Beacon Hill Private Limited,"120 Federal St, Boston, MA 02110",,FOCO
+A22,Horizon Solutions Limited Liability Company,"750 Broad Street, Newark, NJ 07102",456789123,LLC
+A23,Bank of New York Mellon,"240 Greenwich Street, New York, NY 10286",954789512,INVSTBNK
+A24,International Business Machines,"1 New Orchard Road, Armonk, NY 10504",578412589,CORP
+A25,Apex Logistics Services,"500 Innovation Way, Austin, TX 78701",,FOCO
+A26,Hongkong and Shanghai Banking Corporation,"1 Queen's Road Central, Hong Kong",456789123,INVSTBNK
+A27,Apex Technology Department,"500 Innovation Way, Austin, TX 78701",987654321,SCHOOL
+A28,Global Management and Administration Services,"450 North Oak Avenue, Chicago, IL 60601",578412589,MUNI
+A29,Jane Street,"250 Vesey Street, New York, NY 10281",,HEDGE
+A30,Pinnacle Energy Resources,"750 Broad Street, Suite 400, Newark, NJ 07102",456789123,FOINS
+A31,Zenith Financial Solutions,"500 Innovation Boulevard, Apartment 12B, Austin, TX 78701",987654321,SCHOOL
+A32,Vanguard Freight Systems,"450 North Oak Avenue, Highway 101, Chicago, IL 60601",,MUNI
+A33,Sterling Global Enterprise,"120 Federal Parkway, Drive #3, Boston, MA 02110",654987321,LLP
+A34,The Crestview Capital and Growth Fund,"1200 Pacific Hwy, San Diego, CA 92101",321654987,HEDGE
+A35,Society for the Prevention of Cruelty,"450 N Oak Ave, Chicago, IL 60601",578412589,NGO
+A36,Center of Science or Technology,"500 Innovation Blvd, Austin, TX 78701",,SCHOOL
+A37,The Bank for International Trade,"750 Broad St, Newark, NJ 07102",456789123,INVSTBNK
+A38,Trident Logistics Group International,"100 Main St, New York, NY 10001",987654321,CORP
+A39,Zenith Financial Solutions Enterprise,"500 Innovation Blvd, Austin, TX 78701",456789123,INVSTBNK
+A40,Horizon Data Systems Services,"750 Broad St, Newark, NJ 07102",,FOINS
+A41,Meridian Advisory Partners Global,"450 N Oak Ave, Chicago, IL 60601",321654987,PLAN
+A42,Vanguard Management Group,"500 Wall Street, New York, NY 10005",456789123,HEDGE
+A43,Apex Software Creator Services,"120 Federal St, Boston, MA 02110",,FOCO
+A44,Global Search Solutions,"750 Broad St, Newark, NJ 07102",987654321,NGO
+A45,Horizon Consulting Partners,"500 Innovation Blvd, Austin, TX 78701",321654987,PLAN
+A46,Rapid Runner Freight Systems,"500 Wall Street, New York, NY 10005",456789123,CORP
+A47,Better Building Solutions,"120 Federal St, Boston, MA 02110",,FOCO
+A48,Apex Flying Express Logistics,"750 Broad St, Newark, NJ 07102",987654321,NGO
+A49,Horizon Children Health Services,"500 Innovation Blvd, Austin, TX 78701",321654987,PLAN
+A50,even Hills Asset Management,"100 Main St, Suite 7, New York, NY 10001",456789123,HEDGE
+A51,First National Capital Corp,"500 Wall Street, Floor 1st, New York, NY 10005",,INVSTBNK
+A52,Apex 21st Century Media,"750 Broad St, Newark, NJ 07102",987654321,NGO
+A53,Three Rivers Logistics Center,"450 North Oak Avenue, Chicago, IL 60601",321654987,MUNI
+A54,Henry III Logistics Group,"500 Wall Street, Floor 3, New York, NY 10005",456789123,CORP
+A55,Apex Century IV Capital,"120 Federal St, Suite 400, Boston, MA 02110",,HEDGE
+A56,World War II Memorial Foundation,"750 Broad St, Newark, NJ 07102",987654321,FNDN
+A57,Charles IX Energy Solutions,"500 Innovation Blvd, Austin, TX 78701",321654987,PLAN
+A58,Wells Fargo Finances,"420 Montgomery Street, San Francisco, CA 94104",456789123,INVSTBNK
+A59,JPMorgan Chase Wealth Management,"270 Park Avenue, New York, NY 10017",,HEDGE
+A60,Bank of America Merrill Lynch Services,"100 North Tryon Street, Charlotte, NC 28255",987654321,CORP
+A61,Goldman Sachs Asset Advisory,"200 West Street, New York, NY 10282",321654987,PLAN
+A62,Steven Miller Advisory,"500 Wall Street, New York, NY 10005",456789123,INDIV
+A63,Catherine Smith Holdings,"120 Federal St, Boston, MA 02110",,FOCO
+A64,Bryan Johns Capital,"750 Broad St, Newark, NJ 07102",987654321,HEDGE
+A65,Sean Wright Financial,"500 Innovation Blvd, Austin, TX 78701",321654987,PLAN
+A66,Premier Automobile Logistics,"500 Wall Street, New York, NY 10005",456789123,CORP
+A67,Apex Lawyer Services,"120 Federal St, Boston, MA 02110",,LLP
+A68,Global Physician Group,"750 Broad St, Newark, NJ 07102",987654321,INDIV
+A69,Horizon Commerce Bank,"500 Innovation Blvd, Austin, TX 78701",321654987,INVSTBNK
+A70,Vanguard Legal Entity Solutions,"500 Wall Street, New York, NY 10005",456789123,CORP
+A71,Apex Employer Identification Number Registry,"120 Federal St, Boston, MA 02110",,FOCO
+A72,Global Tax Identification Number Advisory,"750 Broad St, Newark, NJ 07102",987654321,INVSTBNK
+A73,Horizon Trade Name Holdings,"500 Innovation Blvd, Austin, TX 78701",321654987,HEDGE
+A74,Google LLC,"1600 Amphitheatre Pkwy, Mountain View, CA 94043",987654321,CORP
+A75,Facebook Inc,"1 Hacker Way, Menlo Park, CA 94025",456789123,CORP
+A76,Twitter Inc,"1355 Market St, San Francisco, CA 94103",,FOCO
+A77,Square Inc,"1455 Market St, San Francisco, CA 94103",321654987,PLAN
+A78,Robert Miller Services,"500 Wall Street, New York, NY 10005",456789123,INDIV
+A79,William Johnson Advisory,"120 Federal St, Boston, MA 02110",,INDIV
+A80,Elizabeth Davis Consulting,"750 Broad St, Newark, NJ 07102",987654321,INDIV
+A81,Richard Wilson Financial,"500 Innovation Blvd, Austin, TX 78701",321654987,INDIV
+A82,Gazprom Neft PJSC,"1600 Amphitheatre Pkwy, Mountain View, CA 94043",456789123,FOCO
+A83,Beijing Capital Holdings,"120 Federal St, Boston, MA 02110",,CORP
+A84,Al Rahma Trading Company,"750 Broad St, Newark, NJ 07102",987654321,FOINS
+A85,Mitsubishi UFJ Financial Group,"500 Innovation Blvd, Austin, TX 78701",321654987,INVSTBNK
+A86,Red Cross Foundation,"500 Wall Street, New York, NY 10005",456789123,NGO
+A87,Swiss Federal Railways,"120 Federal St, Boston, MA 02110",,MUNI
+A88,Bank of China,"750 Broad St, Newark, NJ 07102",987654321,INVSTBNK
+A89,Munich Reinsurance Company,"500 Innovation Blvd, Austin, TX 78701",321654987,FOINS
+A90,Cloud Database Provider,,987654321,CORP
+A91,Electric Vehicle Manufacturer,,456789123,CORP
+A92,E-Commerce Marketplace Giant,,,FOCO
+A93,Search Engine Operator,,321654987,PLAN
