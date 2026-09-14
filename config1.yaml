@@ -1,0 +1,80 @@
+job:
+  name: standard
+
+datasets:
+  a:
+    path: test-data/friday-review/a.csv
+    id_field: Id
+    format: csv
+  b:
+    path: test-data/friday-review/b.csv
+    id_field: Id
+    format: csv
+
+cross_map:
+  backend: "local"
+  path: "test-data/friday-review/crossmap/crossmap1.csv"
+  a_id_field: Id
+  b_id_field: Id
+
+embeddings:
+  model: "C:\\tools\\melder\\models\\arctic-embed-xs-entity-resolution"
+  a_cache_dir: test-data/friday-review/cache
+  b_cache_dir: test-data/friday-review/cache
+
+exact_prefilter:
+  enabled: true
+  fields:
+    - field_a: SSN
+      field_b: SSN
+
+match_fields:
+  - field_a: CompanyName
+    field_b: CompanyName
+    method: embedding
+    weight: 0.65
+
+  - field_a: Address
+    field_b: Address
+    method: embedding
+    weight: 0.30
+
+  - field_a: CompanyName
+    field_b: CompanyName
+    method: synonym
+    weight: 0.1
+
+  - field_a: Address
+    field_b: Address
+    method: synonym
+    weight: 0.1
+
+  - field_a: LegalType
+    field_b: LegalType
+    method: exact
+    weight: 0.05
+
+  # - method: bm25
+  #   weight: 0.05
+  #   fields:
+  #     - field_a: CompanyName
+  #       field_b: CompanyName
+  #     - field_a: Address
+  #       field_b: Address
+
+output_mapping:
+  - from: CompanyName
+    to: CompanyName
+  - from: Address
+    to: Address
+
+thresholds:
+  auto_match: 0.6
+  review_floor: 0.2
+
+output:
+  csv_dir_path: test-data/friday-review/output1
+
+scoring_log:
+  enabled: true
+  compression: zstd
