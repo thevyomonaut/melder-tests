@@ -1,4 +1,3 @@
-melder_results2
 ,,DatasetA,,,,DatasetB,,,,MatchA,MelderScore,MelderResult,,
 SNo,Use Case,CompanyName,Address,SSN,LegalType,CompanyName,Address,SSN,LegalType,Id,score,,,
 1,Exact match,Acme Corporation,"100 Main Street, New York, NY 10001",954789512,CORP,Acme Corporation,"100 Main Street, New York, NY 10001",954789512,CORP,A1,1.0000,,,
