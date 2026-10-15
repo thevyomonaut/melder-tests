@@ -1,0 +1,41 @@
+job:
+  name: enroll_ranking_test
+  description: Synthetic 25-record fixture for validating SystemCode/WCIS ranking postprocessing
+
+dataset:
+  path: test-data/ranking-test/ranking_test_data.csv
+  id_field: entity_id
+
+embeddings:
+  model: "C:\\tools\\melder\\models\\arctic-embed-xs-entity-resolution"
+  cache_dir: test-data/ranking-test/cache
+
+blocking:
+  enabled: true
+  operator: and
+  fields:
+    - {field: country_code}
+
+live:
+  match_log_path: test-data/ranking-test/state_fresh/enroll.wal
+
+vector_backend: flat
+top_n: 12
+
+match_fields:
+  - {field: company_name, method: embedding, weight: 0.85}
+  - {field: address_line1, method: fuzzy, scorer: partial_ratio, weight: 0.15}
+
+thresholds:
+  auto_match: 0.85
+  review_floor: 0.60
+
+performance:
+  encoder_pool_size: 2
+
+output:
+  csv_dir_path: test-data/ranking-test/output
+
+scoring_log:
+  enabled: true
+  compression: none

@@ -1,0 +1,1954 @@
+{
+  "results": [
+    {
+      "id": "R001",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R003",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R002",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R004",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R005",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R002",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R003",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R001",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R004",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R005",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R003",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R001",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R002",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R004",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R005",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R004",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R003",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R001",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R002",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R005",
+          "score": 0.9323470191522079,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9257558514090145,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R005",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R003",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R001",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R002",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R004",
+          "score": 0.9323470191522079,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9257558514090145,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R006",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R008",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R007",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R009",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R010",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R007",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R008",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R006",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R009",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R010",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R008",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R007",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R006",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R009",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R010",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R009",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R008",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R007",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R006",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R010",
+          "score": 0.8344486756758256,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8587096719180837,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R010",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R008",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R007",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R006",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R009",
+          "score": 0.8344486756758256,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8587096719180837,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R011",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R012",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R013",
+          "score": 0.9839102777567776,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9917661021737492,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R014",
+          "score": 0.933158996445792,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9264055420370663,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R015",
+          "score": 0.8596827476365225,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8954250812530518,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R012",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R011",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R013",
+          "score": 0.9839102777567776,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9917661021737492,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R014",
+          "score": 0.933158996445792,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9264055420370663,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R015",
+          "score": 0.8596827476365225,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8954250812530518,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R013",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R011",
+          "score": 0.9839102777567776,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9917661021737492,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R012",
+          "score": 0.9839102777567776,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9917661021737492,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R014",
+          "score": 0.9311602267352017,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.929707218618954,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R015",
+          "score": 0.8631818652153015,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8978610179003548,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6666666666666667,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R014",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R011",
+          "score": 0.933158996445792,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9264055420370663,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R012",
+          "score": 0.933158996445792,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9264055420370663,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R013",
+          "score": 0.9311602267352017,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.929707218618954,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R015",
+          "score": 0.8029214232308524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8286470525404986,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R015",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R013",
+          "score": 0.8631818652153015,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8978610179003548,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6666666666666667,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R011",
+          "score": 0.8596827476365225,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8954250812530518,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R012",
+          "score": 0.8596827476365225,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8954250812530518,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R014",
+          "score": 0.8029214232308524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8286470525404986,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R016",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R017",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R018",
+          "score": 0.9600803072111948,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9631196891560274,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9428571428571428,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R019",
+          "score": 0.9223350679552234,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9133989670697381,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.972972972972973,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R020",
+          "score": 0.8271642942686339,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8634365306181067,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R017",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R016",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R018",
+          "score": 0.9600803072111948,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9631196891560274,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9428571428571428,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R019",
+          "score": 0.9223350679552234,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9133989670697381,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.972972972972973,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R020",
+          "score": 0.8271642942686339,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8634365306181067,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R018",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R017",
+          "score": 0.9600803072111948,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9631196891560274,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9428571428571428,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R016",
+          "score": 0.9600803072111948,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9631196891560274,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9428571428571428,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R019",
+          "score": 0.8797773323740278,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8736876179190243,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9142857142857143,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R020",
+          "score": 0.834332057748522,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8656007402083453,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R019",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R017",
+          "score": 0.9223350679552234,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9133989670697381,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.972972972972973,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R016",
+          "score": 0.9223350679552234,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9133989670697381,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.972972972972973,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R018",
+          "score": 0.8797773323740278,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8736876179190243,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9142857142857143,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R020",
+          "score": 0.824821056868579,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8606797807356891,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R020",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R018",
+          "score": 0.834332057748522,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8656007402083453,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R017",
+          "score": 0.8271642942686339,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8634365306181067,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R016",
+          "score": 0.8271642942686339,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8634365306181067,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R019",
+          "score": 0.824821056868579,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8606797807356891,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R021",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R022",
+          "score": 0.9999999642372132,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9999999579261332,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R023",
+          "score": 0.9558286170805654,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9651114660150865,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R024",
+          "score": 0.9404299343333524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9402981926413143,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9411764705882353,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R025",
+          "score": 0.8365443776635563,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8751733162823846,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R022",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R021",
+          "score": 0.9999999642372132,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9999999579261332,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R023",
+          "score": 0.9558286170805654,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9651114660150865,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R024",
+          "score": 0.9404299343333524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9402981926413143,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9411764705882353,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R025",
+          "score": 0.8365443776635563,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8751733162823846,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R023",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R021",
+          "score": 0.9558286170805654,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9651114660150865,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R022",
+          "score": 0.9558286170805654,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9651114660150865,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R024",
+          "score": 0.9252234201277456,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9291053519529455,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R025",
+          "score": 0.8048798126559104,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8387580338646384,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6129032258064516,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R024",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R021",
+          "score": 0.9404299343333524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9402981926413143,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9411764705882353,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R022",
+          "score": 0.9404299343333524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9402981926413143,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9411764705882353,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R023",
+          "score": 0.9252234201277456,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9291053519529455,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R025",
+          "score": 0.7986904810456669,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8306393202613382,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R025",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R021",
+          "score": 0.8365443776635563,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8751733162823846,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R022",
+          "score": 0.8365443776635563,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8751733162823846,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R023",
+          "score": 0.8048798126559104,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8387580338646384,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6129032258064516,
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "id": "R024",
+          "score": 0.7986904810456669,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8306393202613382,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

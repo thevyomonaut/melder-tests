@@ -1,0 +1,2978 @@
+{
+  "results": [
+    {
+      "id": "R001",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R002",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 310200001,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcode_priority"
+        },
+        {
+          "id": "R003",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "RELATEDENT"
+          ],
+          "wcis_id": 310200024,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcode_priority"
+        },
+        {
+          "id": "R004",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "CID"
+          ],
+          "wcis_id": 310200018,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R005",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "MVV"
+          ],
+          "wcis_id": 310200037,
+          "best_systemcode_priority": 5,
+          "best_systemcode": "MVV",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R002",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R001",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 310200005,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcode_priority"
+        },
+        {
+          "id": "R003",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "RELATEDENT"
+          ],
+          "wcis_id": 310200024,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcode_priority"
+        },
+        {
+          "id": "R004",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "CID"
+          ],
+          "wcis_id": 310200018,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R005",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "MVV"
+          ],
+          "wcis_id": 310200037,
+          "best_systemcode_priority": 5,
+          "best_systemcode": "MVV",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R003",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R002",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 310200001,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "wcis_id"
+        },
+        {
+          "id": "R001",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 310200005,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "wcis_id"
+        },
+        {
+          "id": "R004",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "CID"
+          ],
+          "wcis_id": 310200018,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R005",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "MVV"
+          ],
+          "wcis_id": 310200037,
+          "best_systemcode_priority": 5,
+          "best_systemcode": "MVV",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R004",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R002",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 310200001,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R001",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 310200005,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R003",
+          "score": 0.9750058889389038,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9705951634575339,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "RELATEDENT"
+          ],
+          "wcis_id": 310200024,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R005",
+          "score": 0.9323470191522079,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9257558514090145,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "MVV"
+          ],
+          "wcis_id": 310200037,
+          "best_systemcode_priority": 5,
+          "best_systemcode": "MVV",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R005",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R002",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 310200001,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R001",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 310200005,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R003",
+          "score": 0.9511661128564315,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9478959616492777,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "RELATEDENT"
+          ],
+          "wcis_id": 310200024,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R004",
+          "score": 0.9323470191522079,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9257558514090145,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "CID"
+          ],
+          "wcis_id": 310200018,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R006",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R007",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300004,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "wcis_id"
+        },
+        {
+          "id": "R008",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300041,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "wcis_id"
+        },
+        {
+          "id": "R009",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 320300013,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R010",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 320300033,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R007",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R006",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300022,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "wcis_id"
+        },
+        {
+          "id": "R008",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300041,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "wcis_id"
+        },
+        {
+          "id": "R009",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 320300013,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R010",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 320300033,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R008",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R007",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300004,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "wcis_id"
+        },
+        {
+          "id": "R006",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300022,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "wcis_id"
+        },
+        {
+          "id": "R009",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 320300013,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R010",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 320300033,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R009",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R007",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300004,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R006",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300022,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R008",
+          "score": 0.918914201600211,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9096469598657945,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300041,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R010",
+          "score": 0.8344486756758256,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8587096719180837,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 320300033,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R010",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R007",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300004,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R006",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300022,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R008",
+          "score": 0.8922841949896378,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.926751459346098,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 320300041,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R009",
+          "score": 0.8344486756758256,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8587096719180837,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.696969696969697,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 320300013,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R011",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R012",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 330400029,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "melder_score"
+        },
+        {
+          "id": "R013",
+          "score": 0.9839102777567776,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9917661021737492,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 330400016,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R014",
+          "score": 0.933158996445792,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9264055420370663,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "RELATEDENT",
+            "MVV",
+            "CID"
+          ],
+          "wcis_id": 330400045,
+          "best_systemcode_priority": 4,
+          "best_systemcode": "RELATEDENT",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R015",
+          "score": 0.8596827476365225,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8954250812530518,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 330400002,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R012",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R011",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 330400008,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "melder_score"
+        },
+        {
+          "id": "R013",
+          "score": 0.9839102777567776,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9917661021737492,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 330400016,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R014",
+          "score": 0.933158996445792,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9264055420370663,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "RELATEDENT",
+            "MVV",
+            "CID"
+          ],
+          "wcis_id": 330400045,
+          "best_systemcode_priority": 4,
+          "best_systemcode": "RELATEDENT",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R015",
+          "score": 0.8596827476365225,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8954250812530518,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 330400002,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R013",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R011",
+          "score": 0.9839102777567776,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9917661021737492,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 330400008,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R012",
+          "score": 0.9839102777567776,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9917661021737492,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 330400029,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R014",
+          "score": 0.9311602267352017,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.929707218618954,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "RELATEDENT",
+            "MVV",
+            "CID"
+          ],
+          "wcis_id": 330400045,
+          "best_systemcode_priority": 4,
+          "best_systemcode": "RELATEDENT",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R015",
+          "score": 0.8631818652153015,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8978610179003548,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6666666666666667,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 330400002,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R014",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R011",
+          "score": 0.933158996445792,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9264055420370663,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 330400008,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R012",
+          "score": 0.933158996445792,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9264055420370663,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9714285714285714,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 330400029,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R013",
+          "score": 0.9311602267352017,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.929707218618954,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9393939393939394,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 330400016,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R015",
+          "score": 0.8029214232308524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8286470525404986,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 330400002,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R015",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R011",
+          "score": 0.8596827476365225,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8954250812530518,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 330400008,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R012",
+          "score": 0.8596827476365225,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8954250812530518,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "PAPEREDRP"
+          ],
+          "wcis_id": 330400029,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R013",
+          "score": 0.8631818652153015,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8978610179003548,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6666666666666667,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP"
+          ],
+          "wcis_id": 330400016,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R014",
+          "score": 0.8029214232308524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8286470525404986,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 3,
+          "systemcodes": [
+            "RELATEDENT",
+            "MVV",
+            "CID"
+          ],
+          "wcis_id": 330400045,
+          "best_systemcode_priority": 4,
+          "best_systemcode": "RELATEDENT",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R016",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R017",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CID"
+          ],
+          "wcis_id": 340500006,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "melder_score"
+        },
+        {
+          "id": "R018",
+          "score": 0.9600803072111948,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9631196891560274,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9428571428571428,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "RELATEDENT"
+          ],
+          "wcis_id": 340500042,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R019",
+          "score": 0.9223350679552234,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9133989670697381,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.972972972972973,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "MVV"
+          ],
+          "wcis_id": 340500019,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R020",
+          "score": 0.8271642942686339,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8634365306181067,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 340500027,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R017",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R016",
+          "score": 1.0,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 1.0,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CID"
+          ],
+          "wcis_id": 340500031,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "melder_score"
+        },
+        {
+          "id": "R018",
+          "score": 0.9600803072111948,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9631196891560274,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9428571428571428,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "RELATEDENT"
+          ],
+          "wcis_id": 340500042,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R019",
+          "score": 0.9223350679552234,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9133989670697381,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.972972972972973,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "MVV"
+          ],
+          "wcis_id": 340500019,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R020",
+          "score": 0.8271642942686339,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8634365306181067,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 340500027,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R018",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R017",
+          "score": 0.9600803072111948,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9631196891560274,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9428571428571428,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CID"
+          ],
+          "wcis_id": 340500006,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R016",
+          "score": 0.9600803072111948,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9631196891560274,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9428571428571428,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CID"
+          ],
+          "wcis_id": 340500031,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R019",
+          "score": 0.8797773323740278,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8736876179190243,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9142857142857143,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "MVV"
+          ],
+          "wcis_id": 340500019,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R020",
+          "score": 0.834332057748522,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8656007402083453,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 340500027,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R019",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R017",
+          "score": 0.9223350679552234,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9133989670697381,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.972972972972973,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CID"
+          ],
+          "wcis_id": 340500006,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R016",
+          "score": 0.9223350679552234,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9133989670697381,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.972972972972973,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CID"
+          ],
+          "wcis_id": 340500031,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R018",
+          "score": 0.8797773323740278,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8736876179190243,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9142857142857143,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "RELATEDENT"
+          ],
+          "wcis_id": 340500042,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R020",
+          "score": 0.824821056868579,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8606797807356891,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 1,
+          "systemcodes": [
+            "HOGANCISECN"
+          ],
+          "wcis_id": 340500027,
+          "best_systemcode_priority": 7,
+          "best_systemcode": "HOGANCISECN",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R020",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R017",
+          "score": 0.8271642942686339,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8634365306181067,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CID"
+          ],
+          "wcis_id": 340500006,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R016",
+          "score": 0.8271642942686339,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8634365306181067,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CID"
+          ],
+          "wcis_id": 340500031,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R018",
+          "score": 0.834332057748522,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8656007402083453,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6571428571428571,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CSRP",
+            "RELATEDENT"
+          ],
+          "wcis_id": 340500042,
+          "best_systemcode_priority": 2,
+          "best_systemcode": "CSRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R019",
+          "score": 0.824821056868579,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8606797807356891,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6216216216216216,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "MVV"
+          ],
+          "wcis_id": 340500019,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R021",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R022",
+          "score": 0.9999999642372132,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9999999579261332,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 4,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 350600039,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "melder_score"
+        },
+        {
+          "id": "R023",
+          "score": 0.9558286170805654,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9651114660150865,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT"
+          ],
+          "wcis_id": 350600003,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R024",
+          "score": 0.9404299343333524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9402981926413143,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9411764705882353,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "CID"
+          ],
+          "wcis_id": 350600026,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R025",
+          "score": 0.8365443776635563,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8751733162823846,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "MVV",
+            "HOGANCISECN"
+          ],
+          "wcis_id": 350600047,
+          "best_systemcode_priority": 5,
+          "best_systemcode": "MVV",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R022",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R021",
+          "score": 0.9999999642372132,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9999999579261332,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 1.0,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 4,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 350600014,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "melder_score"
+        },
+        {
+          "id": "R023",
+          "score": 0.9558286170805654,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9651114660150865,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT"
+          ],
+          "wcis_id": 350600003,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R024",
+          "score": 0.9404299343333524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9402981926413143,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9411764705882353,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "CID"
+          ],
+          "wcis_id": 350600026,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R025",
+          "score": 0.8365443776635563,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8751733162823846,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "MVV",
+            "HOGANCISECN"
+          ],
+          "wcis_id": 350600047,
+          "best_systemcode_priority": 5,
+          "best_systemcode": "MVV",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R023",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R021",
+          "score": 0.9558286170805654,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9651114660150865,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 4,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 350600014,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R022",
+          "score": 0.9558286170805654,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9651114660150865,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 4,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 350600039,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R024",
+          "score": 0.9252234201277456,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9291053519529455,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "CID"
+          ],
+          "wcis_id": 350600026,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R025",
+          "score": 0.8048798126559104,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8387580338646384,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6129032258064516,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "MVV",
+            "HOGANCISECN"
+          ],
+          "wcis_id": 350600047,
+          "best_systemcode_priority": 5,
+          "best_systemcode": "MVV",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R024",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R021",
+          "score": 0.9404299343333524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9402981926413143,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9411764705882353,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 4,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 350600014,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R022",
+          "score": 0.9404299343333524,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9402981926413143,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9411764705882353,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 4,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 350600039,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R023",
+          "score": 0.9252234201277456,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.9291053519529455,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.9032258064516129,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT"
+          ],
+          "wcis_id": 350600003,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R025",
+          "score": 0.7986904810456669,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8306393202613382,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "MVV",
+            "HOGANCISECN"
+          ],
+          "wcis_id": 350600047,
+          "best_systemcode_priority": 5,
+          "best_systemcode": "MVV",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    },
+    {
+      "id": "R025",
+      "enrolled": true,
+      "edges": [
+        {
+          "id": "R021",
+          "score": 0.8365443776635563,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8751733162823846,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 4,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 350600014,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 1,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R022",
+          "score": 0.8365443776635563,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8751733162823846,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 4,
+          "systemcodes": [
+            "CORNERSTONE",
+            "CSRP",
+            "RELATEDENT",
+            "CID"
+          ],
+          "wcis_id": 350600039,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 2,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R023",
+          "score": 0.8048798126559104,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8387580338646384,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6129032258064516,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "CORNERSTONE",
+            "RELATEDENT"
+          ],
+          "wcis_id": 350600003,
+          "best_systemcode_priority": 1,
+          "best_systemcode": "CORNERSTONE",
+          "linkage_rank": 3,
+          "ranking_basis": "systemcodes"
+        },
+        {
+          "id": "R024",
+          "score": 0.7986904810456669,
+          "field_scores": [
+            {
+              "field": "company_name",
+              "method": "embedding",
+              "score": 0.8306393202613382,
+              "weight": 0.85
+            },
+            {
+              "field": "address_line1",
+              "method": "fuzzy",
+              "score": 0.6176470588235294,
+              "weight": 0.15
+            }
+          ],
+          "systemcodes_count": 2,
+          "systemcodes": [
+            "PAPEREDRP",
+            "CID"
+          ],
+          "wcis_id": 350600026,
+          "best_systemcode_priority": 3,
+          "best_systemcode": "PAPEREDRP",
+          "linkage_rank": 4,
+          "ranking_basis": "systemcodes"
+        }
+      ]
+    }
+  ]
+}

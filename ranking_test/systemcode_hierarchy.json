@@ -1,0 +1,18 @@
+{
+  "melder_score_threshold": 0.99,
+  "exclude_from_count": [
+    "COG",
+    "USERENTRY",
+    "ECRM",
+    "KINGLAND"
+  ],
+  "priority_high_to_low": [
+    "CORNERSTONE",
+    "CSRP",
+    "PAPEREDRP",
+    "RELATEDENT",
+    "MVV",
+    "CID",
+    "HOGANCISECN"
+  ]
+}
