@@ -1,0 +1,27 @@
+{
+  "paths": {
+    "matches": "test-data/alteryx_tests/output/output_AR8/relationships.csv",
+    "a": "test-data/alteryx_tests/AR8_a.csv",
+    "b": "test-data/alteryx_tests/AR8_b.csv",
+    "out_dir": "test-data/alteryx_tests/output/output_AR8/business",
+    "a_id_field": "clientId",
+    "b_id_field": "clientId"
+  },
+  "required_fields_both": [
+    "PAL1"
+  ],
+  "legal_type": {
+    "field": "LegalType",
+    "allowed": [
+      "",
+      "SCHOOL",
+      "MUNI",
+      "STGOV"
+    ],
+    "forbidden": [
+      "INDIV",
+      "FOIND",
+      "INDOSP"
+    ]
+  }
+}

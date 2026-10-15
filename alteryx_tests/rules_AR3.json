@@ -1,0 +1,13 @@
+{
+  "paths": {
+    "matches": "test-data/alteryx_tests/output/output_AR3/relationships.csv",
+    "a": "test-data/alteryx_tests/AR3_a.csv",
+    "b": "test-data/alteryx_tests/AR3_b.csv",
+    "out_dir": "test-data/alteryx_tests/output/output_AR3/business",
+    "a_id_field": "clientId",
+    "b_id_field": "clientId"
+  },
+  "required_fields_both": [
+    "PAL1"
+  ]
+}

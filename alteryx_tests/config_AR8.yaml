@@ -1,0 +1,66 @@
+job:
+  name: AR8_school_municipal
+
+datasets:
+  a:
+    path: test-data/alteryx_tests/AR8_a.csv
+    id_field: clientId
+    format: csv
+  b:
+    path: test-data/alteryx_tests/AR8_b.csv
+    id_field: clientId
+    format: csv
+
+cross_map:
+  backend: "local"
+  path: "test-data/alteryx_tests/crossmap/crossmap_AR8.csv"
+  a_id_field: clientId
+  b_id_field: clientId
+
+embeddings:
+  model: "C:\\tools\\melder\\models\\arctic-embed-xs-entity-resolution"
+  a_cache_dir: test-data/alteryx_tests/cache
+  b_cache_dir: test-data/alteryx_tests/cache
+
+exact_prefilter:
+  enabled: true
+  fields:
+    - field_a: TaxId
+      field_b: TaxId
+
+match_fields:
+  - field_a: CompanyName
+    field_b: CompanyName
+    method: embedding
+    weight: 0.65
+
+  - field_a: PAL1
+    field_b: PAL1
+    method: fuzzy
+    scorer: token_sort_ratio
+    weight: 0.30
+
+  - field_a: CompanyName
+    field_b: CompanyName
+    method: synonym
+    weight: 0.1
+
+  - field_a: PAL1
+    field_b: PAL1
+    method: synonym
+    weight: 0.1
+
+  - method: bm25
+    weight: 0.05
+    fields:
+      - field_a: CompanyName
+        field_b: CompanyName
+      - field_a: PAL1
+        field_b: PAL1
+
+thresholds:
+  auto_match: 0.8
+  review_floor: 0.5
+
+output:
+  csv_dir_path: test-data/alteryx_tests/output/output_AR8

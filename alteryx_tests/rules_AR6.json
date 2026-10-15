@@ -1,0 +1,17 @@
+{
+  "paths": {
+    "matches": "test-data/alteryx_tests/output/output_AR6/relationships.csv",
+    "a": "test-data/alteryx_tests/AR6_a.csv",
+    "b": "test-data/alteryx_tests/AR6_b.csv",
+    "out_dir": "test-data/alteryx_tests/output/output_AR6/business",
+    "a_id_field": "clientId",
+    "b_id_field": "clientId"
+  },
+  "system_codes": {
+    "field": "SystemCodes",
+    "required": [
+      "WFEFCRMSF"
+    ],
+    "mode": "both"
+  }
+}
